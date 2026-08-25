@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FireGear | Equipamiento para Bomberos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-950 text-slate-50 font-sans antialiased overflow-x-hidden">
+    
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 flex justify-between items-center p-6 bg-slate-950/80 backdrop-blur-md border-b border-red-600/50">
+        <div class="text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-orange-500 tracking-tighter uppercase">
+            FIREGEAR
+        </div>
+        <a href="#tienda" class="bg-red-600 hover:bg-red-500 text-white px-6 py-2 rounded font-bold transition shadow-[0_0_15px_rgba(220,38,38,0.5)]">
+            Ir a la Tienda
+        </a>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative flex items-center justify-center min-h-screen bg-black">
+        <!-- Reemplázala por esta línea -->
+<div class="absolute inset-0 bg-cover bg-center opacity-40" style="background-image: url(/images/hero-bombero.jpg);"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent"></div>
+        
+        <div class="relative z-10 text-center px-4 max-w-5xl mt-20">
+            <h1 class="text-6xl md:text-8xl font-black mb-6 uppercase tracking-tight leading-[0.9]">
+                Equipamiento <br> para <span class="text-red-600">Héroes Reales</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-slate-300 mb-10 max-w-3xl mx-auto font-light">
+                Resistencia extrema, tecnología ignífuga y seguridad garantizada. Porque en la línea de fuego, cada segundo cuenta.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#categorias" class="bg-red-600 hover:bg-red-500 px-8 py-4 rounded-sm font-bold text-lg transition transform hover:scale-105 shadow-[0_0_20px_rgba(220,38,38,0.4)]">
+                    Explorar Catálogo
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Categorías -->
+    <section id="categorias" class="py-24 px-6 max-w-7xl mx-auto">
+        <div class="flex items-center gap-4 mb-16">
+            <div class="h-1 flex-1 bg-slate-800"></div>
+            <h2 class="text-4xl font-black uppercase tracking-wider text-slate-200">Línea de Combate</h2>
+            <div class="h-1 flex-1 bg-slate-800"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Card 1 -->
+            <div class="bg-slate-900 rounded-lg overflow-hidden border border-slate-800 hover:border-red-500 transition group cursor-pointer relative">
+                <div class="h-72 bg-slate-800 flex items-center justify-center text-slate-600 font-bold uppercase group-hover:scale-105 transition duration-500">
+                    [Img: Cascos]
+                </div>
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/60 to-transparent p-6 flex flex-col justify-end">
+                    <h3 class="text-2xl font-bold text-white mb-1">Protección Craneal</h3>
+                    <p class="text-red-400 font-semibold text-sm uppercase">Cascos Estructurales &rarr;</p>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-slate-900 rounded-lg overflow-hidden border border-slate-800 hover:border-red-500 transition group cursor-pointer relative">
+                <div class="h-72 bg-slate-800 flex items-center justify-center text-slate-600 font-bold uppercase group-hover:scale-105 transition duration-500">
+                    [Img: Trajes]
+                </div>
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/60 to-transparent p-6 flex flex-col justify-end">
+                    <h3 class="text-2xl font-bold text-white mb-1">Equipos de Protección Personal</h3>
+                    <p class="text-red-400 font-semibold text-sm uppercase">Trajes Ignífugos NFPA &rarr;</p>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bg-slate-900 rounded-lg overflow-hidden border border-slate-800 hover:border-red-500 transition group cursor-pointer relative">
+                <div class="h-72 bg-slate-800 flex items-center justify-center text-slate-600 font-bold uppercase group-hover:scale-105 transition duration-500">
+                    [Img: Herramientas]
+                </div>
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/60 to-transparent p-6 flex flex-col justify-end">
+                    <h3 class="text-2xl font-bold text-white mb-1">Entrada Forzada</h3>
+                    <p class="text-red-400 font-semibold text-sm uppercase">Halligans y Hachas &rarr;</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black py-8 border-t border-slate-800 text-center">
+        <p class="text-slate-500 font-bold uppercase tracking-widest text-sm">&copy; 2026 FireGear. Equipando valientes.</p>
+    </footer>
+    
+</body>
+</html>
