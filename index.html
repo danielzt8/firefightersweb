@@ -87,15 +87,119 @@
         </div>
     </section>
 
+    <!-- Sección de Productos Estilo Amazon -->
+    <section id="productos-destacados" class="py-12 px-4 md:px-8 max-w-[1600px] mx-auto">
+        
+        <!-- Grid principal de 4 columnas -->
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
+            
+            <!-- Bloque 1: Recomendados -->
+            <div class="amazon-card bg-white rounded-xl border border-gray-200 p-5 shadow-sm">
+                <h3 class="text-xl font-bold text-gray-900 mb-4">Recomendados para ti</h3>
+                <div class="grid grid-cols-2 gap-4">
+                    <!-- Producto 1 -->
+                    <a href="#" class="group">
+                        <div class="h-28 bg-gray-100 rounded-lg mb-2 flex items-center justify-center text-gray-400 text-xs">Img</div>
+                        <p class="text-xs text-gray-600 truncate group-hover:text-red-600 transition">Guantes de Extricación</p>
+                        <p class="text-sm font-black text-gray-900">$54.99</p>
+                    </a>
+                    <!-- Producto 2 -->
+                    <a href="#" class="group">
+                        <div class="h-28 bg-gray-100 rounded-lg mb-2 flex items-center justify-center text-gray-400 text-xs">Img</div>
+                        <p class="text-xs text-gray-600 truncate group-hover:text-red-600 transition">Linterna Casco LED</p>
+                        <p class="text-sm font-black text-gray-900">$20.29</p>
+                    </a>
+                    <!-- Producto 3 -->
+                    <a href="#" class="group">
+                        <div class="h-28 bg-gray-100 rounded-lg mb-2 flex items-center justify-center text-gray-400 text-xs">Img</div>
+                        <p class="text-xs text-gray-600 truncate group-hover:text-red-600 transition">Botas Estructurales</p>
+                        <p class="text-sm font-black text-gray-900">$147.19</p>
+                    </a>
+                    <!-- Producto 4 -->
+                    <a href="#" class="group">
+                        <div class="h-28 bg-gray-100 rounded-lg mb-2 flex items-center justify-center text-gray-400 text-xs">Img</div>
+                        <p class="text-xs text-gray-600 truncate group-hover:text-red-600 transition">Gafas de Rescate</p>
+                        <p class="text-sm font-black text-gray-900">$35.99</p>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Bloque 2: Ofertas (con etiquetas rojas) -->
+            <div class="amazon-card bg-white rounded-xl border border-gray-200 p-5 shadow-sm">
+                <div class="flex justify-between items-center mb-4">
+                    <h3 class="text-xl font-bold text-gray-900">Ofertas en Equipos</h3>
+                    <span class="text-gray-400">&rarr;</span>
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <!-- Producto con Oferta -->
+                    <a href="#" class="group">
+                        <div class="h-28 bg-gray-100 rounded-lg mb-2 flex items-center justify-center text-gray-400 text-xs relative overflow-hidden">
+                            Img
+                            <span class="absolute bottom-0 left-0 bg-red-600 text-white text-[10px] font-bold px-2 py-1 rounded-tr-md">25% off</span>
+                        </div>
+                        <p class="text-xs text-gray-600 truncate group-hover:text-red-600 transition">Cámara Térmica</p>
+                    </a>
+                    <a href="#" class="group">
+                        <div class="h-28 bg-gray-100 rounded-lg mb-2 flex items-center justify-center text-gray-400 text-xs relative overflow-hidden">
+                            Img
+                            <span class="absolute bottom-0 left-0 bg-red-600 text-white text-[10px] font-bold px-2 py-1 rounded-tr-md">15% off</span>
+                        </div>
+                        <p class="text-xs text-gray-600 truncate group-hover:text-red-600 transition">Radio Comunicación</p>
+                    </a>
+                    <a href="#" class="group">
+                        <div class="h-28 bg-gray-100 rounded-lg mb-2 flex items-center justify-center text-gray-400 text-xs relative overflow-hidden">
+                            Img
+                            <span class="absolute bottom-0 left-0 bg-red-600 text-white text-[10px] font-bold px-2 py-1 rounded-tr-md">30% off</span>
+                        </div>
+                        <p class="text-xs text-gray-600 truncate group-hover:text-red-600 transition">Cuerda Estática 50m</p>
+                    </a>
+                    <a href="#" class="group">
+                        <div class="h-28 bg-gray-100 rounded-lg mb-2 flex items-center justify-center text-gray-400 text-xs relative overflow-hidden">
+                            Img
+                            <span class="absolute bottom-0 left-0 bg-red-600 text-white text-[10px] font-bold px-2 py-1 rounded-tr-md">10% off</span>
+                        </div>
+                        <p class="text-xs text-gray-600 truncate group-hover:text-red-600 transition">Arnés Integral</p>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Bloque 3: Vistos Recientemente -->
+            <div class="amazon-card bg-white rounded-xl border border-gray-200 p-5 shadow-sm">
+                <h3 class="text-xl font-bold text-gray-900 mb-4">Vistos en Redes</h3>
+                <div class="grid grid-cols-2 gap-4">
+                    <a href="#" class="group"><div class="h-28 bg-gray-100 rounded-lg mb-2 flex items-center justify-center text-gray-400 text-xs">Img</div><p class="text-xs text-gray-600 truncate group-hover:text-red-600 transition">Mochila Forestal</p><p class="text-sm font-black text-gray-900">$124.00</p></a>
+                    <a href="#" class="group"><div class="h-28 bg-gray-100 rounded-lg mb-2 flex items-center justify-center text-gray-400 text-xs">Img</div><p class="text-xs text-gray-600 truncate group-hover:text-red-600 transition">Casco Rescate UV</p><p class="text-sm font-black text-gray-900">$89.99</p></a>
+                    <a href="#" class="group"><div class="h-28 bg-gray-100 rounded-lg mb-2 flex items-center justify-center text-gray-400 text-xs">Img</div><p class="text-xs text-gray-600 truncate group-hover:text-red-600 transition">Detector de Gases</p><p class="text-sm font-black text-gray-900">$379.00</p></a>
+                    <a href="#" class="group"><div class="h-28 bg-gray-100 rounded-lg mb-2 flex items-center justify-center text-gray-400 text-xs">Img</div><p class="text-xs text-gray-600 truncate group-hover:text-red-600 transition">Navaja Táctica</p><p class="text-sm font-black text-gray-900">$29.99</p></a>
+                </div>
+            </div>
+
+            <!-- Bloque 4: Más valorados -->
+            <div class="amazon-card bg-white rounded-xl border border-gray-200 p-5 shadow-sm">
+                <div class="flex justify-between items-center mb-4">
+                    <h3 class="text-xl font-bold text-gray-900">Más valorados</h3>
+                    <span class="text-gray-400">&rarr;</span>
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <a href="#" class="group"><div class="h-28 bg-gray-100 rounded-lg mb-2 flex items-center justify-center text-gray-400 text-xs">Img</div><p class="text-xs text-gray-600 truncate group-hover:text-red-600 transition">Funda Extintor</p><p class="text-sm font-black text-gray-900">$21.99</p></a>
+                    <a href="#" class="group"><div class="h-28 bg-gray-100 rounded-lg mb-2 flex items-center justify-center text-gray-400 text-xs">Img</div><p class="text-xs text-gray-600 truncate group-hover:text-red-600 transition">Soporte Linterna</p><p class="text-sm font-black text-gray-900">$17.99</p></a>
+                    <a href="#" class="group"><div class="h-28 bg-gray-100 rounded-lg mb-2 flex items-center justify-center text-gray-400 text-xs">Img</div><p class="text-xs text-gray-600 truncate group-hover:text-red-600 transition">Mosquetón Acero</p><p class="text-sm font-black text-gray-900">$13.89</p></a>
+                    <a href="#" class="group"><div class="h-28 bg-gray-100 rounded-lg mb-2 flex items-center justify-center text-gray-400 text-xs">Img</div><p class="text-xs text-gray-600 truncate group-hover:text-red-600 transition">Correa Portaradio</p><p class="text-sm font-black text-gray-900">$15.99</p></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
     <!-- Footer -->
     <footer class="bg-white py-8 border-t border-gray-200 text-center px-4">
         <p class="text-gray-400 font-bold uppercase tracking-widest text-xs md:text-sm">&copy; 2026 FireGear. Equipando valientes.</p>
     </footer>
 
-    <!-- 2. Lógica de Anime.js -->
+   <!-- 2. Lógica de Anime.js con Scroll (Intersection Observer) -->
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            // Animar el Navbar
+            // 1. ANIMACIONES DE CARGA (Navbar y Hero) - Estas sí arrancan de inmediato
             anime({
                 targets: '.nav-bar',
                 translateY: [-50, 0],
@@ -104,7 +208,6 @@
                 easing: 'easeOutExpo'
             });
 
-            // Animar la tarjeta de cristal
             anime({
                 targets: '.hero-card',
                 translateY: [50, 0],
@@ -114,25 +217,54 @@
                 easing: 'easeOutExpo'
             });
 
-            // Animar elementos internos del Hero en cascada
             anime({
                 targets: '.hero-item',
                 translateY: [20, 0],
                 opacity: [0, 1],
                 duration: 800,
-                delay: anime.stagger(150, {start: 500}), // Efecto cascada
+                delay: anime.stagger(150, {start: 500}),
                 easing: 'easeOutQuad'
             });
 
-            // Animar las tarjetas de categorías en cascada
-            anime({
-                targets: '.category-card',
-                translateY: [40, 0],
-                opacity: [0, 1],
-                duration: 1000,
-                delay: anime.stagger(200, {start: 1000}), 
-                easing: 'easeOutExpo'
-            });
+            // 2. ANIMACIONES AL HACER SCROLL
+            // Configuramos el observador para detectar cuando las secciones entran en pantalla
+            const observer = new IntersectionObserver((entries, obs) => {
+                entries.forEach(entry => {
+                    // Si la sección es visible en la pantalla
+                    if (entry.isIntersecting) {
+                        
+                        // Si es la sección de categorías
+                        if (entry.target.id === 'categorias') {
+                            anime({
+                                targets: '.category-card',
+                                translateY: [50, 0],
+                                opacity: [0, 1],
+                                duration: 1000,
+                                delay: anime.stagger(150), // Cascada
+                                easing: 'easeOutExpo'
+                            });
+                            obs.unobserve(entry.target); // Dejar de observar para que no se repita
+                        }
+
+                        // Si es la sección de productos estilo Amazon
+                        if (entry.target.id === 'productos-destacados') {
+                            anime({
+                                targets: '.amazon-card',
+                                translateY: [50, 0],
+                                opacity: [0, 1],
+                                duration: 1000,
+                                delay: anime.stagger(150), // Cascada
+                                easing: 'easeOutExpo'
+                            });
+                            obs.unobserve(entry.target); // Dejar de observar
+                        }
+                    }
+                });
+            }, { threshold: 0.15 }); // 0.15 significa que dispara cuando el 15% de la sección es visible
+
+            // Le decimos al observador a qué secciones debe "vigilar"
+            observer.observe(document.getElementById('categorias'));
+            observer.observe(document.getElementById('productos-destacados'));
         });
     </script>
 </body>
